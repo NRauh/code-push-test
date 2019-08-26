@@ -5,12 +5,14 @@
   "scripts": {
     "start": "react-native start",
     "ios": "react-native run-ios",
+    "deploy": "appcenter codepush release-react -a nrauh/PushTest",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-native-code-push": "^5.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
